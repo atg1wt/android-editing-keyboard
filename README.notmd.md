@@ -1,3 +1,14 @@
+<style>
+.insert { color: #FFFFFF; }
+.format { color: #80C0FF; }
+.clipbd { color: #FFC080; }
+.config { color: #C0C0C0; }
+.navsel { color: #B0FFB0; }
+.delete { color: #FF8080; }
+.cntrl  { color: #FFFFC0; }
+td:first-child { font-weight: bold; };
+</style>
+
 # Android Editing Keyboard
 
 ## What It Is
@@ -31,30 +42,30 @@ If you want to play with the source code:
 
 | Key label | Keystrokes performed or action performed |
 | --------- | -------------- |
-| Bold      | Ctrl-B          |
-| Italic    | Ctrl-I          |
-| U'line    | Ctrl-U          |
-| Strike    | Ctrl-D          |
-| Code      | Ctrl-P          |
-| Enter     | `InputConnection.performEditorAction()` |
-| Undo      | Ctrl-Z          |
-| Save      | Ctrl-S          |
-| Cut       | Ctrl-X          |
-| Copy      | Ctrl-C          |
-| Paste     | Ctrl-V          |
-| Bksp.     | DEL (backspace) |
-| Date      | Ctrl-J          |
-|           | None; reserved for future use |
-| Home      | MOVE_HOME       |
-| Select    | Toggles selection mode |
-| ▲         | DPAD_UP         |
-| Delete    | FORWARD_DEL     |
-| Space     | SPACE           |
-| Switch    | Switches to next available input method if possible, otherwise opens the system IME switcher |
-| End       | MOVE_END        |
-| ◀         | DPAD_LEFT       |
-| ▼         | DPAD_DOWN       |
-| ▶         | DPAD_RIGHT      |
+| <span class='format'>Bold</span>   | Ctrl-B          |
+| <span class='format'>Italic</span> | Ctrl-I          |
+| <span class='format'>U'line</span> | Ctrl-U          |
+| <span class='format'>Strike</span> | Ctrl-D          |
+| <span class='format'>Code</span>   | Ctrl-P          |
+| <span class='insert'>Enter</span>  | `InputConnection.performEditorAction()` |
+| <span class='cntrl' >Undo</span>   | Ctrl-Z          |
+| <span class='cntrl' >Save</span>   | Ctrl-S          |
+| <span class='clipbd'>Cut</span>    | Ctrl-X          |
+| <span class='clipbd'>Copy</span>   | Ctrl-C          |
+| <span class='clipbd'>Paste</span>  | Ctrl-V          |
+| <span class='delete'>Bksp.</span>  | DEL (backspace) |
+| <span class='insert'>Date</span>   | Ctrl-J          |
+|                                    | None; reserved for future use |
+| <span class='navsel'>Home</span>   | MOVE_HOME       |
+| <span class='navsel'>Select</span> | Toggles selection mode |
+| <span class='navsel'>▲</span>      | DPAD_UP         |
+| <span class='delete'>Delete</span> | FORWARD_DEL     |
+| <span class='insert'>Space</span>  | SPACE           |
+| <span class='config'>Switch</span> | Switches to next available input method if possible, otherwise opens the system IME switcher |
+| <span class='navsel'>End</span>    | MOVE_END        |
+| <span class='navsel'>◀</span>      | DPAD_LEFT       |
+| <span class='navsel'>▼</span>      | DPAD_DOWN       |
+| <span class='navsel'>▶</span>      | DPAD_RIGHT      |
 
 ## Known Issues
 
