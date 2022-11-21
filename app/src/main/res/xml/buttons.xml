@@ -1,0 +1,39 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="16.66%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="6.0%p"
+    >
+    <Row android:rowEdgeFlags="top">
+        <Key android:codes="50011" android:keyLabel="Bold" android:keyEdgeFlags="left"/>
+        <Key android:codes="50012" android:keyLabel="Italic"/>
+        <Key android:codes="50013" android:keyLabel="U'line"/>
+        <Key android:codes="50014" android:keyLabel="Strike"/>
+        <Key android:codes="50015" android:keyLabel="Code"/>
+        <Key android:codes="50016" android:keyLabel="Enter" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="50021" android:keyLabel="Undo" android:keyEdgeFlags="left"/>
+        <Key android:codes="50022" android:keyLabel="Save"/>
+        <Key android:codes="50023" android:keyLabel="Cut"/>
+        <Key android:codes="50024" android:keyLabel="Copy"/>
+        <Key android:codes="50025" android:keyLabel="Paste"/>
+        <Key android:codes="50026" android:keyLabel="Bksp." android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="50031" android:keyLabel="Date" android:keyEdgeFlags="left"/>
+        <Key android:codes="50032" android:keyLabel=" "/>
+        <Key android:codes="50033" android:keyLabel="Home"/>
+        <Key android:codes="-1" android:keyLabel="Select" android:isSticky="true"/>
+        <Key android:codes="50035" android:keyLabel="\u25B2" android:isRepeatable="true"/>
+        <Key android:codes="50036" android:keyLabel="Delete" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="50041" android:keyLabel="Space" android:keyEdgeFlags="left"/>
+        <Key android:codes="50042" android:keyLabel="Switch"/>
+        <Key android:codes="50043" android:keyLabel="End"/>
+        <Key android:codes="50044" android:keyLabel="\u25C0" android:isRepeatable="true"/>
+        <Key android:codes="50045" android:keyLabel="\u25BC" android:isRepeatable="true"/>
+        <Key android:codes="50046" android:keyLabel="\u25B6" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
